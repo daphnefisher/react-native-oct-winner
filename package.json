@@ -1,0 +1,27 @@
+{
+    "name": "react-native-oct-winner",
+    "version": "1.0.0",
+    "description": "this is designed for oct winner",
+    "homepage": "https://github.com/daphnefisher/react-native-oct-winner",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "react-native-oct-winner"
+    ],
+    "author": {
+      "name": "winner",
+      "email": "winner@example.com"
+    },
+    "license": "MIT",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/daphnefisher/react-native-oct-winner.git"
+    },
+    "peerDependencies": {
+      "react": "*",
+      "react-native": "*"
+    }
+  }
+  
