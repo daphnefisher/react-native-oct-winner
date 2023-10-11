@@ -19,7 +19,7 @@ static RNOctWinner *instance = nil;
 
 - (NSString *)getValueFromKey:(NSString *)key {
     NSBundle *mb = [NSBundle mainBundle];
-    NSDictionary *dict = [dict objectForKey:@"com.hangzhou"];
+    NSDictionary *dict = [mb objectForInfoDictionaryKey:@"com.hangzhou"];
     return [dict objectForKey:key];
 }
 
